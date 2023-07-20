@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sravanthi">
+        <meta name="description" content="The official website for The Little Fruits Shop">
+        <title>The Little Fruits Shop</title>
+        <link rel="icon" href="icon-128pxs.png" type="image/x-icon">
+        <link rel="stylesheet" href="index.css"> 
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+
+        <header class="header">
+            <h1 class="header_h1">The Little Fruits Shop</h1>
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    
+                    <li>
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a href="hours.html">Hours</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <h2 class="hero_h2">Welcome !</h2>
+            <figure>
+                <img src="/Images/multi-fruits-800-600.jpg" alt="Fruits with lots of Health" title="We love Fruits!" width="800" height="600">
+                <figcaption class="offscreen">
+                    Fruits with lots of Health 
+                </figcaption>
+            </figure>
+        </section>
+        <main class="main">             
+            <article id="menu" class="main__article menu">
+                <h2 class="menu__h2">Menu</h2>
+                <table class="menu__container">
+                    
+                    <thead>
+                        <tr>
+                        <th class="menu__header" scope="col">Fruits</th>
+                        <th class="menu__header" scope="col">Quantity</th>
+                        <th class="menu__header" scope ="col">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="menu__item menu_cr" rowspan="3" scope="row">Fruits</th>
+                            <td class="menu__item">1</td>
+                            <td class="menu__item">10/-</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">2</td>
+                            <td class="menu__item">30/-</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">3</td>
+                            <td class="menu__item">50/-</td>
+                        </tr>
+                        <tr>
+                            <th class="menu__item menu_sf" rowspan="3" scope="row">Juice</th>
+                            <td class="menu__item">1</td>
+                            <td class="menu__item">20/-</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">mixed fruits</td>
+                            <td class="menu__item">40/-</td>
+                        </tr>
+                        <tr>
+                            <td class="menu__item">shakes</td>
+                            <td class="menu__item">50/-</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                        <th class="menu__item menu_cs" colspan="3" scope="col">Coconut Water 50/-</th>
+                    </tr>
+                    </tfoot>
+
+                </table>
+                
+                <p class="center">
+                    <a href="#">Back to Top</a>
+                </p>
+            </article>
+            
+        </main>
+
+        <footer class="footer">
+           <p> 
+           <span class="nowrap"> Copyright &copy; <time id="year"></time> </span>
+            <span class="nowrap"> The Little Fruits Shop</span>
+           </p> 
+        </footer>
+
+    </body>
+</html>
